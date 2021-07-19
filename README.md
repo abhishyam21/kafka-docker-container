@@ -5,7 +5,7 @@ This provides the default ports of Zookeeper and Kafka to external world.
 
 Just for additional information how to create, send and consume messages on that simple setup.
 
-- docker-compose up -d to setup project
+- ```bash docker-compose up -d to setup project ```
 - Next commands should be executed on the kafka container, so first log in into the container by typing:
 - docker-compose exec kafka bash to enter kafka`
 /bin/kafka-topics --create --topic topic-name --bootstrap-server localhost:9092 - will create topic
